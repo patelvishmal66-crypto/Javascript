@@ -16,7 +16,7 @@ let box=document.querySelectorAll("button")
             a.innerText="X"
             turn0=true
             a.disabled=true
-            checkWinner()
+            checkWinner()   
 
         }
         
@@ -42,4 +42,4 @@ let box=document.querySelectorAll("button")
 
     }
 
- }
+ } 
