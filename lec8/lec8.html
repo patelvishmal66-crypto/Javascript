@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Live Location Tracker</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body{
+      height:100vh;
+      display:flex;
+      justify-content:center;
+      align-items:center;
+      background: linear-gradient(to right, #00c6ff, #0072ff);
+    }
+
+    .card{
+      width:320px;
+      background:#fff;
+      padding:30px 25px;
+      border-radius:20px;
+      box-shadow:0 8px 20px rgba(0,0,0,0.2);
+      text-align:center;
+    }
+
+    h1{
+      font-size:32px;
+      color:#1d3557;
+      margin-bottom:20px;
+      line-height:1.2;
+    }
+
+    button{
+      padding:12px 20px;
+      border:none;
+      background:#2563eb;
+      color:white;
+      font-size:16px;
+      border-radius:10px;
+      cursor:pointer;
+      margin-bottom:25px;
+    }
+
+    button:hover{
+      background:#1d4ed8;
+    }
+
+    .info{
+      text-align:left;
+      font-size:18px;
+      line-height:2;
+      color:#222;
+    }
+
+    .info span{
+      font-weight:bold;
+      color:#000;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="card">
+    <h1>📍 Live Location<br>Tracker</h1>
+
+    <button>Get My Location</button>
+
+    <div class="info">
+      <p><span>City :</span></p>
+      <p><span>Area :</span></p>
+      <p><span>State :</span></p>
+      <p><span>Country :</span></p>
+      <p><span>Pincode :</span></p>
+    </div>
+  </div>
+
+  
+  <script src="lec8.js"></script>
+
+</body>
+</html>
